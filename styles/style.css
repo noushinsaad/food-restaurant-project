@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font-family: "Work Sans",sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+    height: 726px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 808px;
+    margin: 0 auto;
+}
+
+#hero .hero-content .subtitle {
+    color: rgb(255, 255, 255);
+    /* font-family: Work Sans; */
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+
+#hero .hero-content .title {
+    color: rgb(255, 255, 255);
+    /* font-family: Work Sans; */
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+#hero .hero-content .description {
+    color: rgb(255, 255, 255);
+    /* font-family: Work Sans; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 26px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn {
+    padding: 18px 25px 18px 25px;
+
+
+    color: rgb(255, 255, 255);
+    /* font-family: Work Sans; */
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+
+    cursor: pointer;
+}
+
+
+#card-box {
+    width: 1042px;
+    margin: 100px auto;
+}
+
+#card-box .title-container {
+    margin-bottom: 36px;
+}
+
+#card-box .title-container .subtitle {
+    color: rgb(16, 16, 16);
+    /* font-family: Work Sans; */
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+#card-box .title-container .title {
+    color: rgb(16, 16, 16);
+    /* font-family: Work Sans; */
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.card .image-box {
+    width: 330px;
+}
+
+.card .image-box img {
+    width: 100%;
+}
+
+.card .shop {
+    padding: 10px 24px 10px 24px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+
+/* about us section */
+#about-us-box {
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.left-part {
+    height: 100%;
+    width: 50%;
+}
+
+.left-part img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+}
+
+.right-part {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-part-title {
+    text-align: center;
+    line-height: 30px;
+}
+
+hr {
+    width: 50%;
+    margin: 32px auto;
+}
+
+.right-part-follow h2 {
+    color: rgb(16, 16, 16);
+    /* font-family: Work Sans; */
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.right-part-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* social styles */
+.social {
+    height: 530px;
+    /* border: 2px solid blue;
+    margin: 0px auto; */
+    background-image: linear-gradient(rgba(235, 217, 217, 0.90), rgba(235, 217, 217, 0.90)),url("../assets/social-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social .social-content {
+    width: 100%;
+    height: 100%;
+
+}
